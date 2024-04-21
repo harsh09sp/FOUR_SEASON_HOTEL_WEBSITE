@@ -1,0 +1,95 @@
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+
+
+/* CSS for the text container */
+.text-container {
+    font-family: Arial, sans-serif; /* Change to desired font */
+    font-size: 20px; /* Adjust font size */
+    line-height: 1.8; /* Increase line height for better readability */
+    margin: 0 auto; /* Center the text horizontally */
+    max-width: 800px; /* Limit maximum width for better readability */
+    text-align: center;
+}
+
+
+
+/* CSS for the image inside the container */
+.text-container img {
+    width: 100%; /* Ensure image width covers the container */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: auto;
+    position: relative;
+    z-index: 3;
+}
+
+/* Additional CSS for the logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: auto;
+}
+
+.instagram-logo {
+    height: 1em; /* Set the height of the Instagram logo to match the height of the text */
+    vertical-align: middle; /* Align the Instagram logo vertically with the text */
+}

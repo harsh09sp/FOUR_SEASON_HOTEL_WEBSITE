@@ -1,0 +1,244 @@
+/*!* Reset CSS *!*/
+/*body, html {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*!* Global Styles *!*/
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    background-color: #f8f8f8;*/
+/*    color: #333;*/
+/*}*/
+
+/*header {*/
+/*    text-align: center;*/
+/*    padding: 20px 0;*/
+/*}*/
+
+/*nav {*/
+/*    text-align: center;*/
+/*    margin-top: 20px;*/
+
+/*}*/
+
+/*nav ul {*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*}*/
+
+/*nav ul li {*/
+/*    display: inline;*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*nav ul li:last-child {*/
+/*    margin-right: 0;*/
+/*}*/
+
+/*nav ul li a {*/
+/*    text-decoration: none;*/
+/*    color: #333;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*nav ul li a:hover {*/
+/*    color: #666;*/
+/*}*/
+
+
+
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    background-image: url("MUM_295_original.jpg"); /* Common background image */
+    background-size: cover;
+    background-position: center;
+}
+
+header, nav, .section-one {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+
+/* Section One Styles */
+.section-one {
+    /*background-image: url("MUM_295_original.jpg");*/
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.card {
+    max-width: 980px;
+    margin: 0 auto; /* Center the card horizontally */
+    height: 200px; /* Adjust the height as needed */
+}
+
+
+
+
+.section-two {
+    display: flex;
+    padding: 20px;
+}
+
+.half {
+    width: 50%;
+    padding: 20px;
+}
+
+/*.section-two img {*/
+/*    width: 100%;*/
+/*}*/
+
+
+.section-two .half {
+    position: relative;
+}
+
+.section-two .half img {
+    width: 100%;
+    display: block;
+    transition: opacity 0.3s ease; /* Add transition for opacity */
+}
+
+.section-two .half:hover img {
+    opacity: 0.7; /* Reduce opacity on hover */
+}
+
+
+.section-two .half:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #666; /* Gray color */
+}
+
+.section-two .half:nth-child(2) h2 {
+    font-size: 24px; /* Increased font size */
+    font-style: italic;
+    text-align: center;
+}
+
+.section-two .half:nth-child(2) p {
+    font-size: 18px; /* Increased font size */
+    text-align: center;
+}
+
+
+
+
+
+/* Section Three Styles */
+.section-three img {
+    width: 100%;
+}
+
+
+
+
+.section-four {
+    display: flex;
+    padding: 20px;
+}
+
+.section-four .half {
+    width: 50%;
+    padding: 20px;
+}
+
+.section-four iframe {
+    width: 100%;
+    height: 300px; /* Set the height as needed */
+}
+
+.section-four h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section-four p {
+    margin: 0 0 10px;
+    text-align: center;
+    color: #666; /* Gray color */
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: auto;
+    position: relative;
+    z-index: 3;
+}
+
+/* Additional CSS for the logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: auto;
+}
+
+.instagram-logo {
+    height: 1em; /* Set the height of the Instagram logo to match the height of the text */
+    vertical-align: middle; /* Align the Instagram logo vertically with the text */
+}

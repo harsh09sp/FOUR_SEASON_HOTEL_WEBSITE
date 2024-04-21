@@ -1,0 +1,132 @@
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+.image-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    max-width: 600px; /* Wider form container */
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: calc(100% - 22px); /* Match the width of the input fields */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button[type="submit"] {
+    width: 100%; /* Full width button */
+    padding: 12px;
+    background-color: #888; /* Gray color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #666; /* Darker gray on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: auto;
+    position: relative;
+    z-index: 3;
+}
+
+/* Additional CSS for the logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: auto;
+}
+
+.instagram-logo {
+    height: 1em; /* Set the height of the Instagram logo to match the height of the text */
+    vertical-align: middle; /* Align the Instagram logo vertically with the text */
+}

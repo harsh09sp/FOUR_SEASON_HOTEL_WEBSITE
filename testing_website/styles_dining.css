@@ -1,0 +1,224 @@
+/*!* !* Reset CSS *!*/
+/*body, html {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*!* Global Styles *!*/
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    background-color: #f8f8f8;*/
+/*    color: #333;*/
+/*}*/
+
+/*header {*/
+/*    text-align: center;*/
+/*    padding: 20px 0;*/
+/*}*/
+
+/*nav {*/
+/*    text-align: center;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*nav ul {*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*}*/
+
+/*nav ul li {*/
+/*    display: inline;*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*nav ul li:last-child {*/
+/*    margin-right: 0;*/
+/*}*/
+
+/*nav ul li a {*/
+/*    text-decoration: none;*/
+/*    color: #333;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*nav ul li a:hover {*/
+/*    color: #666;*/
+/*}*/
+/*.room-description {*/
+
+/*    margin-bottom: 20px;*/
+/*    text-align: center;*/
+/*    font-family: "Neue Helvetica", Helvetica, sans-serif;*/
+/*}*/
+
+
+/*!* Full-width image *!*/
+/*.full-width-image {*/
+/*    width: 100%;*/
+/*}*/
+
+/*!* Image gallery *!*/
+/*.image-gallery {*/
+/*    display: flex;*/
+/*    overflow-x: auto;*/
+/*    margin-top: 20px;*/
+/*    gap: 30px; !* Increased space between images *!*/
+/*}*/
+
+/*.image-gallery img {*/
+/*    flex: 0 0 auto;*/
+/*    width: 300px; !* Increased width of each image *!*/
+/*    height: auto;*/
+/*    border-radius: 8px;*/
+/*    transition: transform 0.3s ease; !* Transition effect *!*/
+/*}*/
+
+/*!* Hover effect *!*/
+/*.image-gallery img:hover {*/
+/*    transform: scale(1.1); !* Scale the image to 110% on hover *!*/
+/*}*/
+
+
+
+/*footer {*/
+/*    text-align: center;*/
+/*    padding: 20px 0;*/
+/*    background-color: #333;*/
+/*    color: #fff;*/
+/*    margin-top: auto;*/
+/*    position: relative;*/
+/*    z-index: 3;*/
+/*}*/
+
+/*!* Additional CSS for the logo *!*/
+/*.logo {*/
+/*    position: absolute;*/
+/*    top: 20px;*/
+/*    left: 20px;*/
+/*    height: 40px;*/
+/*    width: auto;*/
+/*}*/
+
+/*.instagram-logo {*/
+/*    height: 1em; !* Set the height of the Instagram logo to match the height of the text *!*/
+/*    vertical-align: middle; !* Align the Instagram logo vertically with the text *!*/
+/*}*/
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+.room-description {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Neue Helvetica", Helvetica, sans-serif;
+}
+
+/* Full-width image */
+.full-width-image {
+    width: 100%;
+}
+
+/* Image gallery */
+.image-gallery {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 20px;
+    gap: 30px; /* Increased space between images */
+}
+
+.image-gallery img {
+    flex: 0 0 auto;
+    width: 300px; /* Increased width of each image */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Transition effect */
+}
+
+/* Hover effect */
+.image-gallery img:hover {
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+
+
+/* Room Card Styles */
+.room-card {
+    display: flex;
+    margin-bottom: 40px; /* Increased margin-bottom */
+}
+
+.room-card .half {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 50px; /* Increased margin-top */
+    position: relative;
+    z-index: 3;
+}
+
+/* Additional CSS for the logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: auto;
+}
+
+.instagram-logo {
+    height: 1em; /* Set the height of the Instagram logo to match the height of the text */
+    vertical-align: middle; /* Align the Instagram logo vertically with the text */
+}

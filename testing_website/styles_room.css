@@ -1,0 +1,111 @@
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+.rooms-section {
+    padding: 20px;
+}
+
+.room-description {
+
+    margin-bottom: 20px;
+    font-family: "Neue Helvetica", Helvetica, sans-serif;
+}
+
+.room-card {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Add a light gray border */
+}
+
+.room-card .half {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.room-card img {
+    width: 100%;
+}
+
+.room-card h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+}
+
+.room-card p {
+    text-align: center;
+    color: #666; /* Gray color */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: auto;
+    position: relative;
+    z-index: 3;
+}
+
+/* Additional CSS for the logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: auto;
+}
+
+.instagram-logo {
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}

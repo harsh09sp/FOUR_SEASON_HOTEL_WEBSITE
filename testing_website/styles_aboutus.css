@@ -1,0 +1,134 @@
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+/*.about-image {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.about-image img {*/
+/*    width: 100%;*/
+/*    transition: transform 0.2s ease; !* Add transition for pop-up effect *!*/
+/*}*/
+
+/*.about-image img:hover {*/
+/*    transform: scale(1.05); !* Apply pop-up effect *!*/
+/*}*/
+
+/*.about-text {*/
+/*    background-color: #000;*/
+/*    color: #fff;*/
+/*    padding: 50px 20px; !* Increased padding for top and bottom *!*/
+/*    text-align: center;*/
+/*    margin-top: 20px;*/
+/*    font-family: "Times New Roman", Times, serif; !* Change font family *!*/
+/*    line-height: 2.9; !* Increase line height for better readability *!*/
+/*}*/
+
+
+
+.about-image {
+    text-align: center;
+    margin-bottom: -30px; /* Adjust the negative margin to control the overlap */
+}
+
+.about-image img {
+    width: calc(100% + 60px); /* Increase width to account for negative margin */
+    margin: 0 -30px; /* Apply negative margin to create overlap */
+    transition: transform 0.2s ease; /* Add transition for pop-up effect */
+}
+
+.about-image img:hover {
+    transform: scale(1.05); /* Apply pop-up effect */
+}
+
+.about-text {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px; /* Increased padding for top and bottom */
+    text-align: center;
+    margin-top: -30px; /* Match the negative margin applied to the image */
+    margin-bottom: 0; /* Remove margin bottom to ensure the section touches the footer */
+    font-family: "Times New Roman", Times, serif; /* Change font family */
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+
+
+
+.about-text p {
+    margin-bottom: 20px; /* Increase margin bottom for better separation */
+    font-size: 18px; /* Increase font size for better readability */
+}
+
+.about-text p:first-child {
+    font-size: 24px; /* Larger font size for the first paragraph */
+    font-weight: bold; /* Make the first paragraph bold */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: auto;
+    position: relative;
+    z-index: 3;
+}
+
+/* Additional CSS for the logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: auto;
+}
+
+.instagram-logo {
+    height: 1em; /* Set the height of the Instagram logo to match the height of the text */
+    vertical-align: middle; /* Align the Instagram logo vertically with the text */
+}
